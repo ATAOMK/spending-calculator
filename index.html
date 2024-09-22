@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harcama Hesaplaycı</title>
+    <link rel="icon" href="money-cash-icon-png.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./images/Ekran görüntüsü 2024-08-23 173154.png" alt="logo">
+        </div>
+        <h1>Harcama Hesaplayıcıya hoş geldiniz!</h1>
+        <form id="expense-form">
+            <div class="form-group">
+                <div class="input-container">
+                    <label for="expense-name">Harcama</label>
+                    <input type="text" id="expense-name" placeholder="Harcama adını giriniz">
+                </div>
+                <div class="input-container">
+                    <label for="expense-amount">Miktar</label>
+                    <input type="number" id="expense-amount" placeholder="Harcama miktarını giriniz">
+                </div>
+            </div>
+            <button type="submit">Harcama Ekle</button>
+        </form>
+        <div id="expense">
+            <!-- <div class="harcama">
+                <h1>kalem</h1>
+                <h3>123₺</h3>
+                <img src="images/trash.png" alt="">
+            </div> -->
+         </div>
+        <div class="toplam">
+            <p class="toplam-p">Toplam = <span class="toplam-span" id="toplam-span"></span></p> 
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
